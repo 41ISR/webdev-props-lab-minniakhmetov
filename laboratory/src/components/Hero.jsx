@@ -1,4 +1,4 @@
-function Hero() {
+export function Hero() {
     return (
         <section className="hero">
             <div className="container hero__inner">
@@ -15,5 +15,3 @@ function Hero() {
         </section>
     );
 }
-
-export default Hero;
